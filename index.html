@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <meta name="description" content="Gladius Arena Gym, MMA, BJJ, Thai Box, Boxing, Fitness, 24/7, cheap, professional, schedule, everyday, martial art, class">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>GLADIUSARENAGYM</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link rel="stylesheet" href="https://use.typekit.net/gvf6smn.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="fav/apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="fav/apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="fav/apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="fav/apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="fav/apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="fav/apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="fav/apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-icon-180x180.png">
+   <link rel="icon" type="image/png" sizes="192x192"  href="fav/android-icon-192x192.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+   <link rel="manifest" href="fav/manifest.json">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">  
+   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script defer src="scripts/dropdown.js"></script>
+   <script defer src="scripts/slider.js"></script>
+   <script defer src="scripts/modal.js"></script>
+
+</head>
+<body>
+
+<!------- LOGO & NAV BAR ------->
+
+   <nav>
+   <!--  <div class="logo">Gladius<span class="word">Arena</span>Gym</div>  -->
+        <div><a href="index.html"><img src="images/all white.png" alt="Gym Logo"></a></div> 
+        <div class="second-logo"><img src="images/all white.png" alt="Gym Logo"></div> 
+
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            
+            <li>
+               <span class="courses-rd point">Courses
+                  <i class="fas fa-caret-right"></i>
+               </span>
+               <a href="courses.html" class="rd-hide">Courses
+                  <i class="fas fa-caret-right"></i>
+               </a>
+               
+               <ul class="courses-js go-up">
+                  <li><a href="courses.html#grp-fit">Fitness</a></li>
+                  <li><a href="courses.html#bjj">BJJ</a></li>
+                  <li><a href="courses.html#boxing">Boxing</a></li>
+                  <li><a href="courses.html#mma">MMA</a></li>
+                  <li><a href="courses.html#muaythai">Muay Thai</a></li>
+               </ul>
+            </li>
+            
+            <li>
+               <div class="about-rd point">About
+                  <i class="fas fa-caret-right"></i>
+               </div>
+               <a href="about.html" class="rd-hide">About
+                  <i class="fas fa-caret-right"></i>
+               </a>
+
+               <ul class="about-js go-up">
+                  <li><a href="about.html#news">News</a></li>
+                  <li><a href="about.html#team">Team</a></li>
+                  <li><a href="about.html#membership">Membership</a></li>
+                  <li><a href="about.html#shop">Shop</a></li>
+                  <li><a href="about.html#events">Events</a></li>
+               </ul>
+            </li>
+            
+            
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+
+         
+   </nav>
+<!------- SLIDER ------->
+<div class="slider">
+   <div class="myslider fading" style="display:block;">
+      <div class="slid">
+         <p>ZÜRICH</p>
+      </div>
+      <img src="images/gym1.jpg" alt="our gym in Zürich">
+   </div>
+   <div class="myslider fading">
+      <div class="slid">
+         <p>AARGAU</p>
+      </div>
+      <img src="images/gym2.jpg" alt="our gym in Aargau">
+   </div>
+   <div class="myslider fading">
+      <div class="slid">
+         <p>BASEL</p>
+      </div>
+      <img src="images/gym3.jpg" alt="our gym in Basel">
+   </div>
+   <div class="myslider fading">
+      <div class="slid">
+         <p>ST.GALLEN</p>
+      </div>
+      <img src="images/gym5.jpg" alt="our gym in Bern">
+   </div>
+   <div class="myslider fading">
+      <div class="slid">
+         <p>ZUG</p>
+      </div>
+      <img src="images/gym6.jpg" alt="our gym in Luzern">
+   </div>
+   <a class="pre-slid" onclick="movement(-1)"><i class="fas fa-angle-double-left double-arrow"></i></a>
+   <a class="pos-slid" onclick="movement(1)"><i class="fas fa-angle-double-right double-arrow"></i></a>
+   
+   <div class="slid-dots"> 
+      <span class="dot-slid" onclick="currentSlide(1)"></span>
+      <span class="dot-slid" onclick="currentSlide(2)"></span>
+      <span class="dot-slid" onclick="currentSlide(3)"></span>
+      <span class="dot-slid" onclick="currentSlide(4)"></span>
+      <span class="dot-slid" onclick="currentSlide(5)"></span>
+   </div>
+   <div class='octagonWrap'>
+      <div class='octagon'></div>
+  </div>
+</div>
+<!------- GYM SECTION ------->   
+
+   <section class="gym titles" >
+      <h1><span>SPECIAL FEATURES</span></h1>
+      
+      <div class="row_gym">
+         <div class="col_gym">
+            <img src="images/relax.jpg" alt="image of the second gym">
+            <div class="layer">
+               <p>Relaxation</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, commodi. Quo perferendis nisi inventore sapiente.</p>
+         </div>
+         
+         <div class="row_gym">
+            <div class="col_gym">
+               <img src="images/physio.jpg" alt="image of the first gym">
+               <div class="layer">
+                  <p>Physiotherapy</p>
+               </div>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi corrupti reiciendis placeat praesentium tempore voluptatibus?</p>
+            </div>
+            
+            <div class="col_gym">
+               <img src="images/nutrition.jpg" alt="image of the third gym">
+               <div class="layer">
+                  <p>Nutrition</p>
+               </div>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae libero architecto est quisquam tempore.</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+<!------- FEATURE SECTION ------->
+
+<!--       <section class="feat titles">
+            <h1><span>SPECIAL FEATURES</span></h1>
+   
+         <div class="feat-row">
+            <div class="feat-col">
+               <img src="images/physio.jpg" alt="image of Physiotherapy">
+               <span>Physiotherapy</span>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, commodi. Quo perferendis nisi inventore sapiente.</p>
+            </div>
+   
+            <div class="feat-col">
+               <img src="images/relax.jpg" alt="image of Relaxation">
+               <span>Relaxation</span>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae libero architecto est quisquam tempore.</p>
+            </div>
+   
+            <div class="feat-col">
+               <img src="images/nutrition.jpg" alt="image of Nutrition">
+               <span>Nutrition</span>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi corrupti reiciendis placeat praesentium tempore voluptatibus?</p>
+            </div>
+         </div>
+   
+      </section> -->
+
+      
+<!------- OFFER SECTION ------->
+
+   <section class="offer titles">
+      <h1><span>OFFERS</span></h1>
+<!--       <div class="row_off">
+         <div class="off_col">
+            <p>>COMMON<</p>
+            <ul>
+               <li>24/7 Gym</li>
+               <li>Workout In All Our Gyms</li>
+               <li>Relaxing Area Access</li>
+               <li>Group Fitness</li>
+               <li>30$/Month</li>
+               <li class="cta-li"><a href="fail.html"><button>GET</button></a></li>
+             </ul>
+         </div>
+
+         <div class="off_col">
+            <p>>RARE<</p>
+            <ul>
+               <li>incl. Common abo</li>
+               <li>Custom Nutrition Plan 1x Month</li>
+               <li>Physiotherapy Session 1x Month</li>
+               <li>2 Martial Art Courses</li>
+               <li>60$/Month</li>
+               <li class="cta-li"><a href="fail.html"><button>GET</button></a></li>
+             </ul>
+         </div>
+         
+          <div class="off_col">
+             <p>>EPIC<</p>
+             <ul>
+                <li>incl. Rare abo</li>
+                <li>Physiotherapy Session 2x Month</li>
+                <li>Sponsor Gifts</li>
+                <li>3 Martial Art Courses</li>
+               <li>90$/Month</li>
+               <li class="cta-li"><a href="fail.html"><button>GET</button></a></li>
+            </ul>
+         </div>
+
+         <div class="off_col">
+            <p>>LEGENDARY<</p>
+            <ul>
+               <li>incl. Epic Abo</li>
+               <li>24/7 Personal Trainer Advice</li>
+               <li>ALL Features 2x Month</li>
+               <li>All Martial Art Courses</li>
+               <li>120$/Month</li>
+               <li class="cta-li"><a href="fail.html"><button>GET</button></a></li>
+             </ul>
+        </div>
+      </div> -->
+      <div class="price-card">
+
+         <div class="cards">
+            <div class="card-title">
+               <p>COMMON</p>
+            </div>
+   
+            <div class="price">
+               <p>25<sup>£</sup> / Month</p>
+            </div>
+   
+               <div class="price-op">
+                  <li>1 Martial Art Course</li>
+                  <li>24/7 Gym</li>
+                  <li>Group Fitness</li>
+               </div>
+               <a href="fail.html" class="price-btn">Sign Up</a>
+         </div>
+   
+         <div class="cards">
+            <div class="card-title">
+               <p>RARE</p>
+            </div>
+   
+            <div class="price">
+               <p>50<sup>£</sup> / Month</p>
+            </div>
+   
+               <div class="price-op">
+                  <li>2 Martial Art Courses</li>
+                  <li>Relaxing Area Access</li>
+                  <li>Incl. Common Abo</li>
+               </div>
+               <a href="fail.html" class="price-btn">Sign Up</a>
+         </div>
+   
+         <div class="cards">
+            <div class="card-title">
+               <p>EPIC</p>
+            </div>
+   
+            <div class="price">
+               <p>75<sup>£</sup> / Month</p>
+            </div>
+   
+               <div class="price-op">
+                  <li>3 Martial Art Courses</li>
+                  <li>Custom Nutrition Plans</li>
+                  <li>Incl. Rare Abo</li>
+               </div>
+               <a href="fail.html" class="price-btn">Sign Up</a>
+         </div>
+
+         <div class="cards">
+            <div class="card-title">
+               <p>LEGENDARY</p>
+            </div>
+   
+            <div class="price">
+               <p>100<sup>£</sup> / Month</p>
+            </div>
+   
+               <div class="price-op">
+                  <li>All Martial Art Courses</li>
+                  <li>Free Physiotherapy</li>
+                  <li>Incl. Epic Abo</li>
+               </div>
+               <a href="fail.html" class="price-btn">Sign Up</a>
+         </div>
+
+      </div>
+
+   </section>
+
+<!------- SPONSOR SECTION ------->   
+   
+   <section class="titles">
+      <h1><span>SPONSORS</span></h1>
+      <div class="spo-wrapper">
+
+         <div class="supa">
+           <div class="sponsor" data-name="Everlast Worldwide Inc."><span><img src="images/everlast.png" alt="Everlast Worldwide Incorporated"></span>
+             <p>Everlast Worldwide Inc.</p></div>
+           <div class="sponsor" data-name="Blizzard Entertainment Inc."><span><img src="images/blizzard.png" alt="Blizzard Entertainment Incorporated"></span>
+             <p>Blizzard Entertainment Inc.</p></div>
+           <div class="sponsor" data-name="Crunchyroll, Incorporated"><span><img src="images/crunchyroll.png" alt="Crunchyroll, Incorporated"></span>
+             <p>Crunchyroll, Inc.</p></div>
+           <div class="sponsor" data-name="School of Audio Engineering"><span><img src="images/sae.png" alt="School of Audio Engineering"></span>
+             <p>School of Audio Engineering</p></div>
+           <div class="sponsor" data-name="Ultimate Fighting Championship"><span><img src="images/ufc.png" alt="Ultimate Fighting Championship"></span>
+             <p>Ultimate Fighting Championship</p></div>
+         </div>
+         
+       </div>
+     
+       <!-- fullscreen img preview box -->
+        <div class="preview-box">
+         <div class="details">
+           <span class="title-box">Sponsor Logo of : <p></p></span>
+           <span class="icon fas fa-times"></span>
+         </div>
+         <div class="image-box"><img src="" alt=""></div>
+       </div>
+       <div class="shadow"></div> 
+   </section>
+
+
+<!------- CONTACT FOOTER SECTION  ------->
+
+       <section class="cta">
+         <h2>Want to know more about our courses?</h2>
+         <a href="contact.html" class="hero-btn">Contact us</a>
+     </section>
+
+<!------- SCROLL TO TOP ------->
+
+<div>
+<a class="gotop" href="#" aria-label="scroll to top of the page"><i class="fas fa-angle-double-up"></i></a>
+</div>
+
+<!------- SOCIAL MEDIA FOOTER ------->
+
+   <footer class="footer">
+      <div class="social">
+         <p><span>Stay Connected</span></p>
+         <div class="social-media">
+         <a href="fail.html" aria-label="link to facebook"><i class="fab fa-facebook-f"></i></a>
+         <a href="fail.html" aria-label="link to youtube"><i class="fab fa-youtube"></i></a>
+         <a href="fail.html" aria-label="link to instagram"><i class="fab fa-instagram"></i></a>
+         <a href="fail.html" aria-label="link to twitter"><i class="fab fa-twitter"></i></a>
+         </div>
+         <p>Created With Power <i class="fas fa-fist-raised"></i> By YBM Designs</p>
+      </div> 
+   </footer>
+   
+</body>
+</html>
